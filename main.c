@@ -8,6 +8,7 @@
 #endif
 
 void waitForAnyKeyToContinue(void);
+void flushInput(void);
 
 int main(void)
 {
@@ -24,7 +25,6 @@ int main(void)
 void waitForAnyKeyToContinue(void)
 {
     printf("Press any key to continue.\n");
-    char c;
     flushInput();
 
 #if defined(_WIN32) || defined(WIN_32)
