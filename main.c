@@ -18,6 +18,7 @@ int main(void)
     scanf("%d", &value);
 
     printf("Hello world!\n");
+    printf("This is working!!\n");
     waitForAnyKeyToContinue();
     return EXIT_SUCCESS;
 }
